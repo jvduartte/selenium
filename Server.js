@@ -61,7 +61,7 @@ app.put('/servidores/atualizar/:id', (req, res) => {
   }
 });
 
-// Rota para excluir um servidor
+// Rota para excluir um servidorrrrr
 app.delete('/servidores/deletar/:id', (req, res) => {
   const id = parseInt(req.params.id);
   console.log(`Recebida requisição DELETE para ID: ${id}`);
