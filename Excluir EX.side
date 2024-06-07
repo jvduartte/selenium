@@ -1,0 +1,167 @@
+{
+  "id": "52d96828-8307-42ad-9424-c73ac503fd22",
+  "version": "2.0",
+  "name": "Excluir EX",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "6c32776b-e02f-4e8f-b0cf-cd79c8ada4fe",
+    "name": "Excluir EX",
+    "commands": [{
+      "id": "22dc422c-5147-4e4e-acc3-9d11f9f76945",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/backend-master/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee1b1a5d-1f9f-4c49-b386-5d8240838aa6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e618538f-4cb9-4957-ac92-e8e7dac61868",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(25) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(25) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[25]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[25]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ed3c1aa-ed3f-4136-af8d-acc92db87b10",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(24) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(24) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[24]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[24]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d444747-fee2-497a-a7c6-df25edccc67f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(23) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(23) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[23]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[23]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b801b55-28de-41ca-baf8-8487eb62e0ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(22) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(22) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[22]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[22]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "badc56c0-935d-4c24-a331-b2669428da6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(21) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(21) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[21]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[21]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "890af976-6279-4950-88ef-97e896941004",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(20) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(20) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[20]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[20]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "677b9032-c3d8-485c-8ec4-4ec1b153b49f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=tr:nth-child(20) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(20) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[20]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[20]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca763413-cbb8-4d1e-9b1b-3a4cf08e9c77",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(19) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(19) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[19]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[19]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17034ae1-9646-4888-9fe3-e5ac0a7e429e",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(18) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(18) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[18]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[18]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36970dff-461b-481e-964f-53a6a0be3b67",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=tr:nth-child(18) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(18) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[18]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[18]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffa26cb5-e4d5-486a-a678-44a89d21e936",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(17) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(17) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[17]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[17]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0373ba9a-27b6-4bdb-9553-36b8785a9734",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(16) .delete-btn",
+      "targets": [
+        ["css=tr:nth-child(16) .delete-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[16]/td[5]/button", "xpath:idRelative"],
+        ["xpath=//tr[16]/td[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d11a8040-1a56-44c3-a51f-7ff1dc288fab",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6c32776b-e02f-4e8f-b0cf-cd79c8ada4fe"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}

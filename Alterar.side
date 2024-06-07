@@ -1,0 +1,293 @@
+{
+  "id": "03c6e948-28a8-4f0e-b55f-fe53c4b140f3",
+  "version": "2.0",
+  "name": "Alterar",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "be2b4225-4393-4c66-8fe4-ab42e34ea706",
+    "name": "Alterar",
+    "commands": [{
+      "id": "49cf83fa-b285-4556-8329-2d79650b7cf3",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/backend-master/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faaa3a9c-0eee-43e0-908f-ced6c063603d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2318c0f8-e1f0-4235-8b6e-dc4df8721533",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[6]/button", "xpath:idRelative"],
+        ["xpath=//td[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccbc1a03-5ab3-4a91-861e-259e6d11f270",
+      "comment": "",
+      "command": "click",
+      "target": "id=modal",
+      "targets": [
+        ["id=modal", "id"],
+        ["css=#modal", "css:finder"],
+        ["xpath=//div[@id='modal']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e46047f-d5ab-4bac-a1fe-f21640bf73cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-cargo",
+      "targets": [
+        ["id=edit-cargo", "id"],
+        ["css=#edit-cargo", "css:finder"],
+        ["xpath=//input[@id='edit-cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/form/input[3]", "xpath:position"]
+      ],
+      "value": "ALUNO"
+    }, {
+      "id": "1fd070a4-1a24-42f2-b96e-237799697476",
+      "comment": "",
+      "command": "click",
+      "target": "css=#editForm",
+      "targets": [
+        ["css=#editForm", "css:finder"],
+        ["xpath=//form[@id='editForm']", "xpath:attributes"],
+        ["xpath=//div[@id='modal']/div/form", "xpath:idRelative"],
+        ["xpath=//div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e1bb232-6814-4229-a5b0-8bcc267adb28",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bbe4b39-7d0f-49a0-ae8e-4ac20fe08704",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(2) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[2]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "446cc62e-7ee2-4fc1-b17b-ca2b3eb03a6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=modal",
+      "targets": [
+        ["id=modal", "id"],
+        ["css=#modal", "css:finder"],
+        ["xpath=//div[@id='modal']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee9959d5-2d7f-475a-9560-558c57bc3ce2",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-cargo",
+      "targets": [
+        ["id=edit-cargo", "id"],
+        ["css=#edit-cargo", "css:finder"],
+        ["xpath=//input[@id='edit-cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/form/input[3]", "xpath:position"]
+      ],
+      "value": "BOMBEIRO"
+    }, {
+      "id": "9c52d58c-fcd7-4271-a86e-02c17847b16c",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "697e5f09-4cef-48f0-82e4-a072cbbbed59",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(3) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[3]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "731eb720-5640-4620-8a1b-9e163e515df8",
+      "comment": "",
+      "command": "click",
+      "target": "id=modal",
+      "targets": [
+        ["id=modal", "id"],
+        ["css=#modal", "css:finder"],
+        ["xpath=//div[@id='modal']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06db2ee5-c714-429e-bd70-7cd3cf067b8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-departamento",
+      "targets": [
+        ["id=edit-departamento", "id"],
+        ["css=#edit-departamento", "css:finder"],
+        ["xpath=//input[@id='edit-departamento']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "CLINICA"
+    }, {
+      "id": "0508793e-0dde-43bc-9aec-dba004fdcb7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "828567d9-c7ab-4087-b484-5297c71dafc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(4) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[4]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49e30771-4af3-4ab5-915c-3f2c30691984",
+      "comment": "",
+      "command": "click",
+      "target": "id=modal",
+      "targets": [
+        ["id=modal", "id"],
+        ["css=#modal", "css:finder"],
+        ["xpath=//div[@id='modal']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f7cf898-5697-4183-91b2-af51bb6c35b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-cargo",
+      "targets": [
+        ["id=edit-cargo", "id"],
+        ["css=#edit-cargo", "css:finder"],
+        ["xpath=//input[@id='edit-cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/form/input[3]", "xpath:position"]
+      ],
+      "value": "PROFESSOR"
+    }, {
+      "id": "43822ffc-e6f9-4ba8-bca7-ef3582f08aa5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-cargo",
+      "targets": [
+        ["id=edit-cargo", "id"],
+        ["css=#edit-cargo", "css:finder"],
+        ["xpath=//input[@id='edit-cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/form/input[3]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "dd814592-eb10-468e-bffb-109180eeb39e",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(5) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[5]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb537f39-2643-47c8-9444-b79635878d91",
+      "comment": "",
+      "command": "click",
+      "target": "id=modal",
+      "targets": [
+        ["id=modal", "id"],
+        ["css=#modal", "css:finder"],
+        ["xpath=//div[@id='modal']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2580510-c560-4ab5-88e9-1f53199b1121",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-cargo",
+      "targets": [
+        ["id=edit-cargo", "id"],
+        ["css=#edit-cargo", "css:finder"],
+        ["xpath=//input[@id='edit-cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/form/input[3]", "xpath:position"]
+      ],
+      "value": "ALuno"
+    }, {
+      "id": "b3e68e60-8f8e-4822-bd39-20d37536018e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=edit-cargo",
+      "targets": [
+        ["id=edit-cargo", "id"],
+        ["css=#edit-cargo", "css:finder"],
+        ["xpath=//input[@id='edit-cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[3]", "xpath:idRelative"],
+        ["xpath=//div/form/input[3]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "45d2b375-d2cc-4b2a-8dd7-a6471185d9bf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["be2b4225-4393-4c66-8fe4-ab42e34ea706"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}
